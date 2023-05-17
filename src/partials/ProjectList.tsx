@@ -35,7 +35,7 @@ const ProjectList = () => (
       <Project
         name="URL Shortener"
         description="A URL shortener web app developed by Django and SQLLite3 on the back-end, React.js, JavaScript, HTML, and CSS on the front-end, and Docker for deployment."
-        link="/"
+        link="https://github.com/Ehsan-Home/URL_shortener"
         img={{
           src: '/assets/images/url-shortener.png',
           alt: 'url shortener pic',
@@ -51,7 +51,7 @@ const ProjectList = () => (
       <Project
         name="Sealed-bid auction based on blockchain"
         description="Blockchain-based auction-system that could protect the privacy, as well as reducing the cost by 70%. I leveraged React.js, Django, and Ethereum blockchain to implement this project."
-        link="/"
+        link="https://dspace.library.uvic.ca/handle/1828/14292"
         img={{ src: '/assets/images/blockchain.png', alt: 'Project Maps' }}
         category={
           <>
