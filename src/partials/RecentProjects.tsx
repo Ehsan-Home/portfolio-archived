@@ -6,20 +6,20 @@ import {
   Section,
 } from 'astro-boilerplate-components';
 
-type IRecentPostsProps = {
+type IRecentProjects = {
   postList: MarkdownInstance<IFrontmatter>[];
 };
 
-const RecentPosts = (props: IRecentPostsProps) => (
+const RecentProjects = (props: IRecentProjects) => (
   <Section
     title={
       <div className="flex items-baseline justify-between">
         <div>
-          Recent <GradientText>Posts</GradientText>
+          Recent <GradientText>Projects</GradientText>
         </div>
 
         <div className="text-sm">
-          <a href="/posts">View all Posts →</a>
+          <a href="/projects">View all Projects →</a>
         </div>
       </div>
     }
@@ -28,4 +28,4 @@ const RecentPosts = (props: IRecentPostsProps) => (
   </Section>
 );
 
-export { RecentPosts };
+export { RecentProjects };
