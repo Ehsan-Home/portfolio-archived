@@ -49,17 +49,15 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        name="Sealed-bid auction based on blockchain"
+        description="Blockchain-based auction-system that could protect the privacy, as well as reducing the cost by 70%. I leveraged React.js, Django, and Ethereum blockchain to implement this project."
         link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        img={{ src: '/assets/images/blockchain.png', alt: 'Project Maps' }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.INDIGO}>React.js</Tags>
+            <Tags color={ColorTags.EMERALD}>Django</Tags>
+            <Tags color={ColorTags.SKY}>Blockchain</Tags>
           </>
         }
       />
