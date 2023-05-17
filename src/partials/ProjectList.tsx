@@ -10,54 +10,38 @@ const ProjectList = () => (
   <Section
     title={
       <>
-        Recent <GradientText>Projects</GradientText>
+        <GradientText>Education</GradientText>
       </>
     }
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Care Changer"
-        description="A urinary incontinence detection web & mobile apps. This platform consists of an IoT device, a web app, AWS server, and native mobile applications. This platform could enhance caring time by 60%!"
-        link="https://carechanger.ca/"
+        name="University of Victoria (UVIC)"
+        description="Master of Engineering (M.eng) - Project: Blockchain-based, Privacy-preserving, First Price Sealed Bid Auction (FPSBA) Verifiable by Participants"
+        link="https://www.uvic.ca/"
         img={{
-          src: '/assets/images/carechanger.png',
-          alt: 'Care Changer logo',
+          src: '/assets/images/Uvic.svg',
+          alt: 'Uvic logo',
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>React.js</Tags>
-            <Tags color={ColorTags.ROSE}>JavaScript</Tags>
-            <Tags color={ColorTags.LIME}>Swift</Tags>
-            <Tags color={ColorTags.SKY}>Java</Tags>
+            <Tags color={ColorTags.ZINC}>GPA: 3.66 / 4.0</Tags>
+            <Tags color={ColorTags.ZINC}>2013 - 2018</Tags>
           </>
         }
       />
       <Project
-        name="URL Shortener"
-        description="A URL shortener web app developed by Django and SQLLite3 on the back-end, React.js, JavaScript, HTML, and CSS on the front-end, and Docker for deployment."
-        link="https://github.com/Ehsan-Home/URL_shortener"
+        name="Isfahan University of Technology (IUT)"
+        description="Bachelor of Science - Dissertation: Car Rental System Based on the blockchain"
+        link="https://english.iut.ac.ir/"
         img={{
-          src: '/assets/images/url-shortener.png',
-          alt: 'url shortener pic',
+          src: '/assets/images/iut.svg',
+          alt: 'IUT logo',
         }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>React.js</Tags>
-            <Tags color={ColorTags.EMERALD}>JavaScript</Tags>
-            <Tags color={ColorTags.YELLOW}>Django</Tags>
-          </>
-        }
-      />
-      <Project
-        name="Sealed-bid auction based on blockchain"
-        description="Blockchain-based auction-system that could protect the privacy, as well as reducing the cost by 70%. I leveraged React.js, Django, and Ethereum blockchain to implement this project."
-        link="https://dspace.library.uvic.ca/handle/1828/14292"
-        img={{ src: '/assets/images/blockchain.png', alt: 'Project Maps' }}
-        category={
-          <>
-            <Tags color={ColorTags.INDIGO}>React.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Django</Tags>
-            <Tags color={ColorTags.SKY}>Blockchain</Tags>
+            <Tags color={ColorTags.ZINC}>GPA: 3.63 / 4.0</Tags>
+            <Tags color={ColorTags.ZINC}>2019 - 2022</Tags>
           </>
         }
       />

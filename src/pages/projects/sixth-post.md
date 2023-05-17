@@ -1,10 +1,10 @@
 ---
 layout: '@/templates/BasePost.astro'
-title: Typography example
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.
-pubDate: 2020-02-06T00:00:00Z
-imgSrc: '/assets/images/image-post.jpeg'
-imgAlt: 'Image post'
+title: Care Changer 
+description: Incontinence detection web and mobile application, able to reduce caring time by 60%.
+pubDate: 2022-04-02T00:00:00Z
+imgSrc: '/assets/images/carechanger-news.jpeg'
+imgAlt: 'Care changer image'
 ---
 
 This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
