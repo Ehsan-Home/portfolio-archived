@@ -1,12 +1,12 @@
 import {
   ColorTags,
   GradientText,
-  Project,
+  Project as Education,
   Section,
   Tags,
 } from 'astro-boilerplate-components';
 
-const ProjectList = () => (
+const Educations = () => (
   <Section
     title={
       <>
@@ -15,7 +15,7 @@ const ProjectList = () => (
     }
   >
     <div className="flex flex-col gap-6">
-      <Project
+      <Education
         name="University of Victoria (UVIC)"
         description="Master of Engineering (M.eng) - Project: Blockchain-based, Privacy-preserving, First Price Sealed Bid Auction (FPSBA) Verifiable by Participants"
         link="https://www.uvic.ca/"
@@ -30,7 +30,7 @@ const ProjectList = () => (
           </>
         }
       />
-      <Project
+      <Education
         name="Isfahan University of Technology (IUT)"
         description="Bachelor of Science - Dissertation: Car Rental System Based on the blockchain"
         link="https://english.iut.ac.ir/"
@@ -49,4 +49,4 @@ const ProjectList = () => (
   </Section>
 );
 
-export { ProjectList };
+export { Educations };
