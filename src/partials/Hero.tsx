@@ -1,10 +1,7 @@
 import {
-  ColorTags,
   GradientText,
   HeroAvatar,
-  HeroSocial,
   Section,
-  Tags,
 } from 'astro-boilerplate-components';
 
 const Hero = () => (
@@ -40,17 +37,17 @@ const Hero = () => (
           loading="lazy"
         />
       }
-      socialButtons={
-        <>
-          <a href="https://www.linkedin.com/in/ehsanghasaei/" target="_blank">
-            <HeroSocial
-              src="/assets/images/linkedin-icon.png"
-              alt="Linkedin icon"
-            />
-          </a>
-          <Tags color={ColorTags.GRAY}>ehsan.ghasaei@gmail.com</Tags>
-        </>
-      }
+      // socialButtons={
+      //   <>
+      //     <a href="https://www.linkedin.com/in/ehsanghasaei/" target="_blank">
+      //       <HeroSocial
+      //         src="/assets/images/linkedin-icon.png"
+      //         alt="Linkedin icon"
+      //       />
+      //     </a>
+      //     <Tags color={ColorTags.GRAY}>ehsan.ghasaei@gmail.com</Tags>
+      //   </>
+      // }
     />
   </Section>
 );
