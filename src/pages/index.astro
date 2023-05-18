@@ -7,6 +7,7 @@ import { RecentProjects } from '@/partials/RecentProjects';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
 import { sortByDate } from '@/utils/Posts';
+import Skills from '@/partials/Skills';
 
 const allPosts = await Astro.glob<IFrontmatter>('./projects/*.md');
 const sortedPosts = sortByDate(allPosts);
@@ -21,6 +22,8 @@ const { description } = AppConfig;
   <Educations />
   <!-- Recent post commented -->
   <RecentProjects postList={lastThreePosts} />
+
+  <Skills />
 
   <!-- News letter commented -->
   <!-- <CTA /> -->
