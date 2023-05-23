@@ -7,7 +7,6 @@ imgSrc: '/assets/images/blockchain-auction.jpeg'
 imgAlt: 'Image post 2'
 ---
 
-# Privacy Preserving Auction based on Blockchain
 This project was my master project. This system preserves bidder's privacy, while being able to reduce the cost by 70%.
 
 ## Tech Stack

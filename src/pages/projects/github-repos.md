@@ -7,8 +7,6 @@ imgSrc: '/assets/images/github-repos.png'
 imgAlt: 'GitHub repo'
 ---
 
-# GitHub Favorite Repositories Inventory (GitHubventory)
-
 I implemented a web app that you can search different repositories of a user and save them!
 
 ## Links

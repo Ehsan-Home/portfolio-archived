@@ -6,7 +6,7 @@ pubDate: 2023-01-02T00:00:00Z
 imgSrc: '/assets/images/link-shortener.jpeg'
 imgAlt: 'Link shortener pic'
 ---
-# URL_shortener
+
 This is a URL_Shortener app.
 ## Tech stack
 
