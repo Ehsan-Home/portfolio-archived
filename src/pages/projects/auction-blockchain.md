@@ -7,3 +7,25 @@ imgSrc: '/assets/images/blockchain-auction.jpeg'
 imgAlt: 'Image post 2'
 ---
 
+This project was my master project. This system preserves bidder's privacy, while being able to reduce the cost by 70%.
+
+## Tech Stack
+### Front-end
+- React.js
+- JavaScript
+- Ant design
+- HTML, CSS
+- NPM
+- Create react app
+### Back-end (Off-chain code)
+- Django
+- Python
+- Pip
+### Blockchain
+- [Sepolia Ethereum](https://sepolia.etherscan.io/)
+- Solidity
+- Remix
+
+## Link
+- [URL](https://github.com/AKEB-asyemmtric-key-each-bidder)
+- [Report](https://dspace.library.uvic.ca/handle/1828/14292)

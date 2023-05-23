@@ -7,138 +7,74 @@ imgSrc: '/assets/images/carechanger-news.jpeg'
 imgAlt: 'Care changer image'
 ---
 
-General explanations
+## Problem
+- Void events in incontinent patients can cause mental and physical issues if not being attended in time such as itching, burning, and infection.
+- Attending the void events daily requires the nurses or care givers to constantly check the patient or based on a fixed schedule.
+- By 2026, there will be **1,126,000** seniors suffering from urine incontinence.
 
-## Headings
+## Actions
+- Created a device embedded into patient’s seat cushion to detect urinary incontinence.
+- Built a web application, server, and mobile applications to alarm the caregivers in time.
 
-# H1 For example
+## My Tasks
+- Designed and developed the front-end of the web application.
+    - Contained **user authentication, permission levels, invitation handling, responsive design**, etc.
+    - Optimized the performance of the frontend by image compression, removing unused JavaScript, and deferring offscreen images, resulting in the top **10%** of global website ranking.
+    - Refactored the frontend codebase leveraging **React components** and by separating logic, UI, and network calls, which produced 15 components used across the code, enhancing the scalability and testability.
+    - Consumed **31** REST APIs using **Axios React** library, fetching and gathering data from .NET server, which enabled the users to access different resources according to their permissions, streamlining the user experience.
+- Collaborated with backend engineer to implement backend architecture.
+    - Collaborated in the Design of a **SQS service** to receive the request from hardware devices.
+    - Contributed to the implementation of **SNS service** to trigger push notification in mobile and web apps.
+    - Stored **14,400** daily data coming from hardware devices in **S3 Bucket**.
+    - Developed **API gateway, Lambda function** and **Dynamo DB** to expose backend to the web and mobile apps, process the request , and store users information in relational database respectively,
+- Automated the release process to build, package, and deploy the frontend and the backend from GitHub to AWS using **GitHub Actions**.
+- Contributed to the development of Android and iOS application.
+    - Provided **user authentication, hardware device adding using Bluetooth, receiving real-time notifications, daily graph**, etc.
+    - Released Android and iOS apps into **Google Play** and **TestFlight** respectively.
+- Provided **15** frontend, mobile, and system documents in PDF using **Notion** for the teams to seamlessly learn the basics of the platform.
+- Communicated with Stakeholder to gather requirements.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+## Result
+- 60% improvement in care quality : Increasing successful detection in toilet needs from 2 times a day to 6 times a day.
 
-## H2 For example
+## Tech Stack
+Front-end:
+- React.js
+- JavaScript
+- Ant design
+- HTML, CSS
+- NPM
+- Create react app
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+Back-end:
+- .NET
+- C#
+- AWS
+  - Lambda functions
+  - S3 buckets
+  - Dynamo DB
+  - API-gateway
+  - SQS
+  - SNS
+  - GitHub-actions
 
-### H3 For example
+iOS:
+- Swift
+- TestFlight
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+Android:
+- Java
 
-#### H4 For example
+Other tools:
+- Postman
+- Firebase
+- Auth0
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-##### H5 For example
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-###### H6 For example
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-## Emphasis
-
-Emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
-## Horizontal separator
-
-This is a horizontal separator:
-
----
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
----
-
-## List types
-
-### Ordered list
-
-1. List item 1
-2. List item 2
-   1. Nested list item A
-   2. Nested list item B
-3. List item 3
-
-### Unordered list
-
-- List item
-- List item
-  - Nested list item
-  - Nested list item
-    - Double nested list item
-    - Double nested list item
-- List item
-
-### Mixed list
-
-1. First ordered list item
-2. Another item
-   - Unordered sub-list.
-3. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-4. And another item.
-
+Version control:
+- Git
+- GitHub
 ## Links
-
-[Inline-style link](https://www.google.com)
-
-[Inline-style link with title](https://www.google.com "Google's Homepage")
-
-[Reference-style link][arbitrary case-insensitive reference text]
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-## Images
-
-Images included in _\_posts_ folder are lazy loaded.
-
-Inline-style:
-![alt text](/src/images/random.jpeg 'Logo Title Text 1')
-
-## Table
-
-| Tables        |      Are      | Cool |
-| ------------- | :-----------: | ---: |
-| col 3 is      | right-aligned | 1600 |
-| col 2 is      |   centered    |   12 |
-| zebra stripes |   are neat    |    1 |
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
-## Syntax highlight
-
-```javascript
-var s = 'JavaScript syntax highlighting'; var s = 'JavaScript syntax highlighting';
-alert(s);
-```
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-```python
-s = "Python syntax highlighting"
-print s
-```
+- [Linkedin](https://www.linkedin.com/posts/ehsanghasaei_victoria-fathers-device-for-wheelchair-users-activity-6988913854978150401-_2mo/?utm_source=share&utm_medium=member_desktop)
+- [YouTube](https://youtu.be/28WE59gSHUg)
+- [Local-news](https://www.cheknews.ca/victoria-fathers-device-for-wheelchair-users-gets-closer-to-hitting-the-market-1051086/)
+- [YouTube](https://youtu.be/4I1U5JE1PKo)
