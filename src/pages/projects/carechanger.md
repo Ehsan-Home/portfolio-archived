@@ -36,6 +36,43 @@ imgAlt: 'Care changer image'
 
 ## Result
 - 60% improvement in care quality : Increasing successful detection in toilet needs from 2 times a day to 6 times a day.
+
+## Tech Stack
+Front-end:
+- React.js
+- JavaScript
+- Ant design
+- HTML, CSS
+- NPM
+- Create react app
+
+Back-end:
+- .NET
+- C#
+- AWS
+  - Lambda functions
+  - S3 buckets
+  - Dynamo DB
+  - API-gateway
+  - SQS
+  - SNS
+  - GitHub-actions
+
+iOS:
+- Swift
+- TestFlight
+
+Android:
+- Java
+
+Other tools:
+- Postman
+- Firebase
+- Auth0
+
+Version control:
+- Git
+- GitHub
 ## Links
 - [Linkedin](https://www.linkedin.com/posts/ehsanghasaei_victoria-fathers-device-for-wheelchair-users-activity-6988913854978150401-_2mo/?utm_source=share&utm_medium=member_desktop)
 - [YouTube](https://youtu.be/28WE59gSHUg)
